@@ -1,68 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>freeCodeCamp Survey Form</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700|Lato:400,700|Montserrat:400,700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
-
-    <form id="survey-form">
-    <label for="name" id="name-label">Enter your name:</label>
-    <input type="text" id="name" placeholder="Enter your name" required>
-
-    <label for="email" id="email-label">Enter your email address:</label>
-    <input type="email" id="email" placeholder="Enter your email" required>
-
-    <label for="number" id="number-label">Age (optional)</label>
-    <input type="number" id="number" placeholder="Age" min="1" max="100" required>
-
-    <label for="dropdown">Which option best describes your current role?</label>
-    <select id="dropdown" name="dropdown">
- <option value="">Select current one</option>
-            <option value="1">Student</option>
-            <option value="2">Full Time Job</option>
-            <option value="3">Full Time Learner</option>
-            <option value="4">Prefer Not To Say</option>
-            <option value="5">Other</option>
-    </select>
-
-    <label>Would you recommend freeCodeCamp to a friend?</label>
-    <label for="Definitely"><input id="Definitely" type="radio" name="option" value="Definitely" class="inline"> Definitely </label>
-    <label for="Maybe"><input id="Maybe" type="radio" name="option" value="Maybe" class="inline"> Maybe</label>
-    <label for="Not sure"><input id="Not sure" type="radio" name="option" value="Not sure" class="inline"> Not sure</label>
-  
-  <label for="feature">What is your favorite feature of freeCodeCamp?
-          <select id="feature" name="feature"></label>
-            <option value="">Select an option</option>
-            <option value="1">Challenges</option>
-            <option value="2">Projects</option>
-            <option value="3">Community</option>
-            <option value="4">Open Source</option>
-
-     <fieldset id="multiple">
-      <legend>Select multiple options:</legend>
-      <label for="checkbox1"><input type="checkbox" name="checkbox" value="checkbox1"> Front-end Projects</label>
-      <label for="checkbox2"><input type="checkbox" name="checkbox" value="checkbox2"> Back-end Projects</label>
-      <label for="checkbox3"><input type="checkbox" name="checkbox" value="checkbox3"> Data Visualization</label>
-      <label for="checkbox4"><input type="checkbox" name="checkbox" value="checkbox4"> Challenges</label>
-      <label for="checkbox5"><input type="checkbox" name="checkbox" value="checkbox5"> Open Source Community</label>
-      <label for="checkbox6"><input type="checkbox" name="checkbox" value="checkbox6"> Gitter help rooms</label>
-      <label for="checkbox7"><input type="checkbox" name="checkbox" value="checkbox7"> Videos</label>
-      <label for="checkbox8"><input type="checkbox" name="checkbox" value="checkbox8"> City Meetups</label>
-      <label for="checkbox9"><input type="checkbox" name="checkbox" value="checkbox9"> Wiki</label>
-      <label for="checkbox10"><input type="checkbox" name="checkbox" value="checkbox10"> Forum</label>
-      <label for="checkbox11"><input type="checkbox" name="checkbox" value="checkbox11"> Additional Courses</label>
-    </fieldset>
-
-    <label for="comments">Additional Comments:</label>
-    <textarea id="comments" rows="5" placeholder="Enter your comments"></textarea>
-
-    <button type="submit" id="submit">Submit</button>
-
-  </form>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="title">Józef Piłsudski</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700|Lato:400,700|Montserrat:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1 id="header-title">Józef Piłsudski</h1>
+    <p></p>
+  </header>
+  <main id="main">
+    <div id="img-div">
+    <img id="image"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa1SK8Pwen9mc8Ril4O5erTJIN3z4SXDvwKw&usqp=CAU"  alt="Józef Piłsudski" class="center">
+    <figcaption id="img-caption">Józef Piłsudski</figcaption>
+    </div>
+    <div id="tribute-info">
+      <h2>Early Life</h2>
+      <p>Józef Piłsudski was born on December 5, 1867, in Zalavas, now known as Zalavė, Lithuania. He grew up in a family with a strong sense of patriotism and Polish national identity.</p>
+      <h2>Military and Political Career</h2>
+      <p>Throughout his life, Piłsudski played a significant role in Polish history. He was a key figure in the fight for Polish independence, serving as the Chief of State and later as the Marshal of Poland.</p>
+      <h2>Legacy</h2>
+      <p>Józef Piłsudski's leadership and determination have left a lasting impact on Poland. His contributions to the country's independence and his efforts to establish a strong and sovereign Poland are celebrated and remembered to this day.</p>
+    </div>
+    <a id="tribute-link" href="https://en.wikipedia.org/wiki/J%C3%B3zef_Pi%C5%82sudski" target="_blank">Learn more about Józef Piłsudski</a>
+  </main>
+</body>
+</html>
