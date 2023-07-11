@@ -1,0 +1,114 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="title">Józef Piłsudski</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700|Lato:400,700|Montserrat:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1 id="header-title">Józef Piłsudski</h1>
+    <p></p>
+  </header>
+  <main id="main">
+    <div id="img-div">
+    <img id="image"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa1SK8Pwen9mc8Ril4O5erTJIN3z4SXDvwKw&usqp=CAU"  alt="Józef Piłsudski" class="center">
+    <figcaption id="img-caption">Józef Piłsudski</figcaption>
+    </div>
+    <div id="tribute-info">
+      <h2>Early Life</h2>
+      <p>Józef Piłsudski was born on December 5, 1867, in Zalavas, now known as Zalavė, Lithuania. He grew up in a family with a strong sense of patriotism and Polish national identity.</p>
+      <h2>Military and Political Career</h2>
+      <p>Throughout his life, Piłsudski played a significant role in Polish history. He was a key figure in the fight for Polish independence, serving as the Chief of State and later as the Marshal of Poland.</p>
+      <h2>Legacy</h2>
+      <p>Józef Piłsudski's leadership and determination have left a lasting impact on Poland. His contributions to the country's independence and his efforts to establish a strong and sovereign Poland are celebrated and remembered to this day.</p>
+    </div>
+    <a id="tribute-link" href="https://en.wikipedia.org/wiki/J%C3%B3zef_Pi%C5%82sudski" target="_blank">Learn more about Józef Piłsudski</a>
+  </main>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+body, h1, h2, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+#header-title {
+  color: #fff;
+  text-align: center;
+}
+
+#main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#img-div {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15%;
+  display:block;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#img-caption {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#tribute-info {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+#tribute-link {
+  display: block;
+  text-align: center;
+  color: #333;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#tribute-link:hover {
+  background-color: #ccc;
+}
+
+** end of undefined **
+
