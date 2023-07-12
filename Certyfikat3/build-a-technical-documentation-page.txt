@@ -1,0 +1,297 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Technical Documentation</title>
+</head>
+<body>
+   <header>
+    <h1>Computer station documentation</h1>
+  </header>
+  <nav id="navbar">
+    <header>
+      <h2>Menu</h2>
+    </header>
+    <ul>
+      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#Hardware_specification">Hardware specification</a></li>
+      <li><a class="nav-link" href="#Sample_components_and-technical_data">Sample components and technical data</a></li>
+      <li><a class="nav-link" href="#IT_audit_and_hardware_audit">IT audit and hardware audit</a></li>
+      <li><a class="nav-link" href="#Regulations">Regulations</a></li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>
+        <h2>Introduction</h2>
+      </header>
+      <p>Preparation of a computer workstation, use and protection should be
+standardized on the basis of appropriate documentation. Such documents may be:</p>
+      <ul>
+      <li>computer hardware specification,</li>
+      <li>IT audit,</li>
+      <li>equipment audit,</li>
+      <li>software audit,</li>
+      <li>legality audit,</li>
+      <li>regulations, boards, lists of passwords.</li>
+    </ul>
+    
+      <code></code>
+      <code></code>
+      <code></code>
+      <code></code>
+      <code></code>
+
+    </section>
+
+     <section class="main-section" id="Hardware_specification">
+      <header>
+        <h2>Hardware specification</h2>
+      <ul>
+      </header>
+      <p>Guidelines for the configuration of the computer set, prepared in the form of specifications (lists),in which the parameters of individual components are specified (more or less in detail), e.g.:</p>
+      <ul>
+      <li>motherboard,</li>
+      <li>processor,</li>
+      <li>expansion cards (graphics, sound, network, etc.),</li>
+      <li>RAM memory,</li>
+      <li>hard drive,</li>
+      <li>optical drives,</li>
+      <li>accessories (mouse, keyboard, speakers, etc.),</li>
+      <li>monitor,</li>
+      <li>peripherals (printer, scanner, etc.),</li>
+      <li>software (OS, office suite, etc.)
+      <li>warranty and post-warranty service.</li>
+    </ul>
+      <code></code>
+      <code></code>
+      <code></code>
+      <code></code>
+      <code></code>
+
+    </section>
+
+    <section class="main-section" id="Sample_components_and_technical_data">
+      <header>
+        <h2>Sample components and technical data</h2>
+      </header>
+      <h3>Motherboard</h3>
+      <p>Board Standard: ATX, Bus: 800MHz/1066/1333MHz</p>
+      <p>Supported memory: 4x DDR2 800 (dual channel support)</p>
+      <p>Maximum amount of memory: 8GB</p>
+      <p>Expansion slots: 1x PCI-E (16x), 3x PCI-E(1x), 3x PCI</p>
+      <p>Disk controllers: 1x UDMA, 6x SATAII (300), including 1 eSATA port,</p>
+      <p>Sound Card: Integrated, 8-channel, HighDefinition</p>
+      <p>Network card: integrated, compliant with the 10/100/1000 Mbps standard
+      LAN</p>
+      <p>Internal port: minimum 1x IEEE 1394a (front)</p>
+      <p>External ports: minimum 1x IEEE 1394a, 12x USB (2.0) - including
+      minimum 2 front, audio</p>
+      <p>Warranty: 36 months</p>
+      <hr>
+      <h3>Processor</h3>
+      <p>Number of cores: 2</p>
+      <p>Processor architecture: 64 bit (BOX version), compatible with systems
+operating systems of the Windows family, 45nm technology</p>
+      <p>Operating frequency: 3166 MHz, FSB frequency: 1333 MHz</p>
+      <p>Multiplier: x9.5, L2 cache: 6144 kB</p>
+      <p>Technologies used: Execute Disable Bit, Intel Visualization
+Technology, Enhanced Halt State</p>
+      <p>Warranty: 36 months</p>
+      <hr>
+      <h3>RAM</h3>
+      <p>Type DDR2, capacity: 2048 MB (2x1024), Standard: PC6400</p>
+      <p>Frequency: 800 MHz, Timings SPD: CL5</p>
+      <p>Connector: 240pin</p>
+      <p>Number of pieces: 1,</p>
+      <p>Warranty: lifetime manufacturer</p>
+      
+      <code></code>
+      <code></code>
+      <code></code>
+      <code></code>
+      <code></code>
+
+    </section>
+
+    <section class="main-section" id="IT_audit_and_hardware_audit">
+      <header>
+        <h2>IT audit and hardware audit</h2>
+      </header>
+      <p>The audit of computer equipment is usually an inventory during which they are described in detail individual components of computer sets. Inventory allows you to collect accurate data on the status of your equipment and its configuration. The audit report allows you to prepare strategies for future equipment purchases or upgrades</p>
+      <hr>
+      <p>Software audit most often consists in scanning computer sets and making a list of all installed ones files. Such a statement is compared with the pattern of the desired software, thanks to which it is created list of unnecessary and potentially dangerous applications. In addition, the audit report may include:</p>
+      <ul>
+      <li>list of the most popular applications,</li>
+      <li>working time of individual programs,</li>
+      <li>division of applications used for work and play,</li>
+      <li>type of data stored,</li>
+      <li>percentage division of disk space due to the type of stored data.</li>
+    </ul>
+
+      <code></code>
+      <code></code>
+      <code></code>
+      <code></code>
+      <code></code>
+
+    </section>
+
+    <section class="main-section" id="Regulations">
+      <header>
+        <h2>Regulations</h2>
+      </header>
+      <p>The rules of use should be specified in the relevant regulations. Near the use point the safety instructions should be attached to the equipment.</p>
+ 
+      <code></code>
+      <code></code>
+      <code></code>
+      <code></code>
+      <code></code>
+
+
+          <section id="source-info">
+      <h4>All data taken from <a href="https://cloud-c.edupage.org/cloud?z%3A4r6F3Rea8MjhP3tPA2QIvXYQPRnZAtj6RgVB2PicxHJoOR1jEwVfZ0Q7hbYAAF%2B5">this random page</a></h4>
+      <h4>Translated in <a href="https://www.google.com/search?q=google+translate&oq=go&aqs=chrome.0.69i59j69i57j69i59j69i60l2j69i65l3.1239j0j9&sourceid=chrome&ie=UTF-8">Google</a></h4>
+    </section>
+
+    </section>
+  </main>
+  <script>
+    const mainSections = document.querySelectorAll('.main-section');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    mainSections.forEach((section, index) => {
+      const sectionId = section.id;
+      const navLink = navLinks[index];
+      navLink.href = `#${sectionId}`;
+    });
+  </script>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#navbar {
+  background-color: #808080;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#navbar li {
+  padding: 5px;
+}
+
+#navbar li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+#navbar li a:hover {
+  color: #ff9900;
+}
+
+#main-doc {
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.main-section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ddd;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+  margin: 20px 0;
+}
+
+a {
+  color: #555;
+}
+
+a:hover {
+  color: #777;
+}
+
+#source-info {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+#source-info h4 {
+  margin: 0;
+}
+
+#source-info a {
+  color: #333;
+  text-decoration: none;
+}
+
+#source-info a:hover {
+  color: #ff9900;
+}
+@media screen and (max-width: 600px) {
+  
+}
+
+** end of undefined **
+
