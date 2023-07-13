@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#header {
+  background-color: #134786;
+  color: #fff;
+  padding: 10px;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #134786;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#header-img {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+#Informacje_ogólne,
+#Co_robimy,
+#Cennik,
+#video {
+  margin-top: 80px;
+  padding: 20px;
+}
+
+.price-box {
+  background-color: #f1f5f8;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#contact-text {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #134786;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0d3059;
+}
+
+@media (max-width: 600px) {
+ 
+  #header {
+    flex-direction: column;
+  }
+  #header-img {
+    margin-bottom: 10px;
+  }
+}
