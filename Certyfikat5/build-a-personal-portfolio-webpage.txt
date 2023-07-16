@@ -1,0 +1,213 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Personal Portfolio</title>
+</head>
+<body>
+  <nav id="navbar">
+    <ul>
+      <li><a href="#welcome-section">Welcome</a></li>
+      <li><a href="#about-section">About</a></li>
+      <li><a href="#projects-section">Projects</a></li>
+      <li><a href="#contact-section">Contact</a></li>
+      <li><a href="#profile-link">Profile</a></li>
+    </ul>
+  </nav>
+
+  <header id="welcome-section">
+    <h1>Welcome to My Portfolio</h1>
+  </header>
+
+  <section id="about-section">
+    <h2>About Me</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus elit non sapien placerat aliquam. Vestibulum eleifend malesuada elit, ut ultricies urna ultrices ac.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-tile">
+      <h3>Project 1</h3>
+      <img src="https://d-art.ppstatic.pl/kadry/k/r/89/73/599be370111ca_o_medium.jpg" alt="Project 1 Image">
+      <p>Description of project 1</p>
+      <a href="#">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <img src="https://www.kodolamacz.pl/assets/blog/programowanie-reaktywne-dla-swiezakow/okladkablog.png" alt="Project 2 Image">
+      <p>Description of project 2</p>
+      <a href="#">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Project 3</h3>
+      <img src="https://navoica.pl/asset-v1:Politechnika_Bialostocka+INF_C+2022_S3+type@asset+block@logo_kursu.png" alt="Project 3 Image">
+      <p>Description of project 3</p>
+      <a href="#">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Project 4</h3>
+      <img src="https://polishwords.com.pl/blog/wp-content/23-1-1024x576.jpg" alt="Project 4 Image">
+      <p>Description of project 4</p>
+      <a href="#">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Project 5</h3>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwezEsR5SYVXcX02GF9mvvcu17NokkyxBwHg&usqp=CAU" alt="Project 5 Image">
+      <p>Description of project 5</p>
+      <a href="#">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Project 6</h3>
+      <img src="https://sdacademy.pl/sda-assets/uploads/2021/10/Czy-programowanie-jest-trudne.png" alt="Project 6 Image">
+      <p>Description of project 6</p>
+      <a href="#">View Project</a>
+    </div>
+
+    </div>
+  </section>
+
+  <section id="contact-section">
+    <h2>Contact Me</h2>
+    <p>Email: example@example.com</p>
+    <p>Phone: 123-456-789</p>
+  </section>
+
+  <footer>
+    <a id="profile-link" href="https://github.com/yourusername" target="_blank">Visit My GitHub Profile</a>
+  </footer>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar styles */
+
+#navbar {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  padding: 10px;
+}
+
+#navbar ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#navbar li {
+  margin-right: 10px;
+}
+
+#navbar a {
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 10px;
+}
+
+/* Header styles */
+
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+}
+
+#welcome-section h1 {
+  font-size: 48px;
+}
+
+/* Section styles */
+
+section {
+  padding: 40px;
+}
+
+#about-section {
+  background-color: #f8f8f8;
+}
+
+#projects {
+  background-color: #fff;
+}
+
+#projects .project-tile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#projects .project-tile h3 {
+  margin: 10px 0;
+}
+
+#projects .project-tile img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#contact-section {
+  background-color: #f8f8f8;
+}
+
+/* Footer styles */
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+#profile-link {
+  color: #fff;
+  font-size: 16px;
+}
+
+/* Media query */
+
+@media (max-width: 768px) {
+  #navbar ul {
+    flex-direction: column;
+  }
+
+  #navbar li {
+    margin-bottom: 10px;
+  }
+}
+
+** end of undefined **
+
